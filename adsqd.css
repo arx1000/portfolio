@@ -1,7 +1,8 @@
-body {
-  margin: 0;
-  height: 100vh;
-  background: #0a192f;
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0a192f;
+  color:white;
 }
 
 .background {
@@ -13,6 +14,61 @@ body {
   background: radial-gradient(
     circle at var(--x) var(--y),
     rgba(100,255,218,0.15),
-    transparent 200px
+    transparent 250px
   );
+}
+
+.container{
+  display:flex;
+  max-width:1200px;
+  margin:auto;
+}
+
+/* LEFT SIDE */
+
+.left{
+  width:40%;
+  height:100vh;
+  position:sticky;
+  top:0;
+  padding:80px 40px;
+}
+
+.left img{
+  width: 200px;
+  border-radius:50%;
+  margin-bottom:20px;
+  border:3px solid rgba(100,255,218,0.6);
+}
+
+/* RIGHT SIDE */
+
+.right{
+  width:60%;
+  padding:80px 40px;
+}
+
+.right h2{
+  margin-top:40px;
+  color:#64ffda;
+}
+
+ul{
+  padding-left:20px;
+}
+
+li{
+  margin-bottom:10px;
+}
+.linke{
+    margin-top: 160px;
+    display: block;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    
+}
+.linke :hover{
+    color: red;
+    font-size: 60px;
+
 }
