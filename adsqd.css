@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #0a192f;
+}
+
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+
+  background: radial-gradient(
+    circle at var(--x) var(--y),
+    rgba(100,255,218,0.15),
+    transparent 200px
+  );
+}
